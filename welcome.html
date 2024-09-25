@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html style="background-color: rgb(175, 215, 180);">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guest Welcome Page</title>
+    </head>
+    <body align="center">
+        <h1 style="background-color: rgb(39, 36, 39); color: cyan;" align="center">Welcome to my webpage, my fellow guests!</h1>
+        <hr>
+        <div style="text-align: center;">
+            <a href="mailto:aaronzhuthedude@outlook.com" target="_blank">
+                <img src="rain.JPG" height="400" title="I'm competing for my class!!" alt="A photo of me!">
+            </a>
+        </div>
+        <br>
+        <p style="font-size: x-large; background-color: rgb(94, 170, 210); color: rgb(242, 255, 60);" align="center">
+            I'm Aaron, an ordinary guy who loves making music with Suno Ai.
+            You can check out all the tracks I've created on this page.
+            Hope you're enjoying them!
+        </p>
+        <p align="center" style="background-color: aqua; font-size: xxx-large;">⬇️⬇️⬇️😄😄😄Click the image to go to the playlist page.🔥🔥🔥💎💎💎</p>
+        <iframe style="border: 0;" src="my_playlist.html" height="1000" width="1500"></iframe>
+        <h2 style="background-color: rgb(56, 56, 40); color: aliceblue; font-size: xx-large;">⬇️If you’re having trouble opening the hyperlink, you can enjoy them directly below.⬇️</h2>
+        <div style="background-color: red;">
+            <p style="color: cornsilk; font-size: 25px;">Euphoric Storm (Original)</p>
+            <audio id="audioOne" controls>
+                <source src="Euphoric Storm (Original).mp3" type="audio/mpeg">
+            </audio>
+            <button id="buttonOne">Mute</button>
+            <script>
+                const audioOne = document.getElementById("audioOne");
+                const buttonOne = document.getElementById("buttonOne");
+
+                buttonOne.addEventListener("click", () => {
+                    audioOne.muted = !audioOne.muted;
+                    buttonOne.textContent = audioOne.muted ? "Unmute" : "Mute";
+                })
+            </script>
+        </div>
+        <div style="background-color: orange;">
+            <p style="color: cornsilk; font-size: 25px;">Lost in the Night</p>
+            <audio id="audioTwo" controls>
+                <source src="Lost in the Night.mp3" type="audio/mpeg">
+            </audio>
+            <button id="buttonTwo">Mute</button>
+            <script>
+                const audioTwo = document.getElementById("audioTwo");
+                const buttonTwo = document.getElementById("buttonTwo");
+    
+                buttonTwo.addEventListener("click", () => {
+                    audioTwo.muted = !audioTwo.muted;
+                    buttonTwo.textContent = audioTwo.muted ? "Unmute" : "Mute";
+                })
+            </script>
+        </div>
+        <div style="background-color: rgb(50, 120, 208);">
+            <p style="color: cornsilk; font-size: 25px;">Raindrop Serenade</p>
+            <audio id="audioThree" controls>
+                <source src="Raindrop Serenade.mp3" type="audio/mpeg">
+            </audio>
+            <button id="buttonThree">Mute</button>
+            <script>
+                const audioThree = document.getElementById("audioThree");
+                const buttonThree = document.getElementById("buttonThree");
+    
+                buttonThree.addEventListener("click", () => {
+                    audioThree.muted = !audioThree.muted;
+                    buttonThree.textContent = audioThree.muted ? "Unmute" : "Mute";
+                })
+            </script>
+        </div>
+        <div style="background-color: rgb(50, 208, 100);">
+            <p style="color: cornsilk; font-size: 25px;">Confusion in the Harmony</p>
+            <audio id="audioFour" controls>
+                <source src="Confusion in the Harmony.mp3" type="audio/mpeg">
+            </audio>
+            <button id="buttonFour">Mute</button>
+            <script>
+                const audioFour = document.getElementById("audioFour");
+                const buttonFour = document.getElementById("buttonFour");
+    
+                buttonFour.addEventListener("click", () => {
+                    audioFour.muted = !audioFour.muted;
+                    buttonFour.textContent = audioFour.muted ? "Unmute" : "Mute";
+                })
+            </script>
+        </div>
+        <div style="background-color: rgb(200, 80, 160);">
+            <p style="color: cornsilk; font-size: 25px;">Euphoric Storm (Remix)</p>
+            <audio id="audioFive" controls>
+                <source src="Euphoric Storm (Remix).mp3" type="audio/mpeg">
+            </audio>
+            <button id="buttonFive">Mute</button>
+            <script>
+                const audioFive = document.getElementById("audioFive");
+                const buttonFive = document.getElementById("buttonFive");
+    
+                buttonFive.addEventListener("click", () => {
+                    audioFive.muted = !audioFive.muted;
+                    buttonFive.textContent = audioFive.muted ? "Unmute" : "Mute";
+                })
+            </script>
+        </div>
+        <div style="background-color: rgb(206, 72, 108);">
+            <p style="color: cornsilk; font-size: 25px;">Starlit Nights</p>
+            <audio id="audioSix" controls>
+                <source src="Starlit Nights.mp3" type="audio/mpeg">
+            </audio>
+            <button id="buttonSix">Mute</button>
+            <script>
+                const audioSix = document.getElementById("audioSix");
+                const buttonSix = document.getElementById("buttonSix");
+    
+                buttonSix.addEventListener("click", () => {
+                    audioSix.muted = !audioSix.muted;
+                    buttonSix.textContent = audioSix.muted ? "Unmute" : "Mute";
+                })
+            </script>
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
